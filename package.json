@@ -1,0 +1,15 @@
+{
+  "name": "cursoecmascript",
+  "version": "1.0.0",
+  "description": "Creado para el curso de ECMAscript de Platzi (historia y versiones de JavaScript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript"
+  ],
+  "author": "Alexis Calixto <alexiscfx1@gmail.com>",
+  "license": "MIT"
+}
