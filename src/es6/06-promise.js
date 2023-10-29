@@ -10,6 +10,6 @@ function anotherFunction () {   // Las Promesas devuelven valores dependiendo si
 }
 
 anotherFunction()       // .them y .catch son Metodos que pertenecen al objeto Promise y nos muestra el estado de la Promesa.
-    .them(response => console.log(response))    // Nos muestra el estado de la promesa cuando fue 'Acepada' y devuelta por el resolve
+    .then(response => console.log(response))    // Nos muestra el estado de la promesa cuando fue 'Acepada' y devuelta por el resolve
     .them(response => console.log(response))    // Podemos crear los them que queramos y para diferentes resultados que nos de la funcion 
     .catch(err => console.log(err));            // Nos muestra el estado de la promesa cuando fue 'Rechazada' y devuelta por el reject
